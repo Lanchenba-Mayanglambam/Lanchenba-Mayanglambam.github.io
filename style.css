@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial;
+    /* padding: 20px; */
+}
+header{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    /* display: flex; */
+    /* grid-template-rows: auto; */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+input {
+    text-align: center;
+    margin-left: 23vw;
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.product img {
+    width: 100px;
+}
