@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LB Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <h1>Android Phones</h1>
+
+    <input type="text" id="search" placeholder="Search phone..." onkeyup="searchPhone()">
+    </header>
+
+    <hr>
+
+    <!-- Products -->
+     <main>
+    <div class="product">
+        <img src="phone1.jpeg">
+        <h3>Samsung Galaxy A53</h3>
+        <p>Price: ₹25,999</p>
+        <button onclick="addcart()">Add to cart</button>
+    </div>
+
+    <div class="product">
+        <img src="phone2.jpeg">
+        <h3>Xiaomi Redmi Note 11</h3>
+        <p>Price: ₹15,999</p>
+        <button onclick="addcart()">Add to cart</button>
+
+    </div>
+
+    <div class="product">
+        <img src="phone3.jpeg">
+        <h3>Realme Narzo 50</h3>
+        <p>Price: ₹13,999</p>
+        <button onclick="addcart()">Add to cart</button>
+
+    </div>
+
+    <div class="product">
+        <img src="phone4.jpeg">
+        <h3>Samsung Galaxy M32</h3>
+        <p>Price: ₹18,499</p>
+        <button id="cart"  onclick="addcart()">Add to cart</button>
+
+    </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
